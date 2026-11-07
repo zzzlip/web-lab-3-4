@@ -1,0 +1,7 @@
+{
+ "name":"web-lab-3-4",
+ "version":"1.0.0",
+ "private":true,
+ "scripts":{"test":"node verify.cjs"},
+ "devDependencies":{"playwright":"^1.58.0"}
+}

@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>博客注册</title><link rel="stylesheet" href="css/style.css"></head><body><header><div class="bar"><strong>学习手记 / 注册</strong><nav><a href="index.html">返回首页</a><a href="lab3.html">语法与成绩</a></nav></div></header><main class="form-wrap"><div class="hero"><div class="eyebrow">LAB 03 / FORM EVENTS</div><h1>创建博客账号</h1><p class="muted">前端表单校验练习，提交成功后在控制台输出实验数据。</p></div><form id="register-form" class="card" novalidate>
+<label for="username">用户名</label><input id="username" name="username" autocomplete="username" aria-describedby="username-hint"><p id="username-hint" class="hint"></p>
+<label for="email">邮箱</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-hint"><p id="email-hint" class="hint"></p>
+<label for="phone">手机号码</label><input id="phone" name="phone" type="tel" autocomplete="tel" aria-describedby="phone-hint"><p id="phone-hint" class="hint"></p>
+<label for="password">密码</label><input id="password" name="password" type="password" autocomplete="new-password" aria-describedby="password-hint"><p id="password-hint" class="hint"></p>
+<label for="confirm">确认密码</label><input id="confirm" name="confirm" type="password" autocomplete="new-password" aria-describedby="confirm-hint"><p id="confirm-hint" class="hint"></p>
+<button type="submit">提交注册</button><p id="register-status" class="hint" role="status"></p></form></main><script src="js/register.js"></script></body></html>
